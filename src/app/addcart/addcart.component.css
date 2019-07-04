@@ -7,11 +7,11 @@ footer p.bookname{display:inline;font-weight:bold;font-size:15px;}
 @media screen and (max-width:765px){
   h2.carthead,.secondbtn,.firstbtn{margin:0px 5px;}
 }
-img.cartimg{width:57%;height:120px;}
+img.cartimg{width:53%;height:120px;}
 a.btnlink{color:#ffffff !important;}
 a.btnlink:hover{text-decoration: none;color:blue !important;}
 .four{text-align:center;margin:20px auto;}
-.newcart{background-color:#ffffff;margin:0px;border:1px solid grey;padding:0 !important;}
+.newcart{background-color:#ffffff;margin:0px;border:1px solid grey;padding:0 !important;margin:4px;}
 footer p.bookprice{font-weight:bold;margin:1px 2px;font-size:15px;}
 footer p.booktype{margin-top:1px 2px;font-size:15px;}
 footer{border:1px solid transparent;padding:2px;margin-top:10px;background-color: #e3e5e8;}

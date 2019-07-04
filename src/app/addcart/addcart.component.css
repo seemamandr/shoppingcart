@@ -1,9 +1,12 @@
 p.off{border:1px solid greenyellow;color:#ffffff;background-color: greenyellow;padding:2px;display:inline;}
 footer p.bookname{display:inline;font-weight:bold;font-size:15px;}
 .carthead{padding: 25px 0px;width:100%;display:inline-flex;border-top:1px solid black;margin:15px;border-bottom:1px solid black;}
-.firstbtn{font-size:20px;color:#ffffff;margin:0px 5px;background-color: greenyellow;padding:12px;border:1px solid greenyellow;}
-h2.cartheader{margin-left:20px;}
-.secondbtn{position:relative;font-size:20px;float:right;color:#ffffff !important;margin:0px 5px;border-radius: 3px;background-color: lightskyblue;padding: 12px;border:1px solid lightskyblue;float:right;}
+.firstbtn{font-size:20px;color:#ffffff;margin:0px 80px;background-color: greenyellow;padding:12px;border:1px solid greenyellow;}
+
+.secondbtn{position:relative;font-size:20px;float:right;color:#ffffff !important;margin:0px 80px;border-radius: 3px;background-color: lightskyblue;padding: 12px;border:1px solid lightskyblue;float:right;}
+@media screen and (max-width:765px){
+  h2.carthead,.secondbtn,.firstbtn{margin:0px 5px;}
+}
 img.cartimg{width:57%;height:120px;}
 a.btnlink{color:#ffffff !important;}
 a.btnlink:hover{text-decoration: none;color:blue !important;}

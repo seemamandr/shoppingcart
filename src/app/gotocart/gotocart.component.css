@@ -1,0 +1,15 @@
+.cartheader1{border-top:1px solid black;border-bottom:1px solid black;margin:20px 0px;}
+h2.carthead1{margin-left:20px;}
+.table>tbody>tr>td{border:none !important;}
+.table3>tbody>tr:last-child{background-color: #e3e5e8;}
+.table>thead{border-top:2px solid gray;}
+.table4{margin-top:30px;}
+.table5{margin-top:30px;}
+.tblimg{width:20px;height:20px;}
+button.plsimg{border:none !important;background-color: transparent !important;}
+button.minusimg{border:none !important;background-color: transparent !important;}
+img.pls{width:15px;height:15px;}
+img.minus{width:15px;height:15px;}
+.secondbtn{font-size:20px;float:right;color:#ffffff !important;margin:0px 70px 0px 5px;border-radius: 3px;background-color: lightskyblue;padding: 8px;border:1px solid lightskyblue;float:right;}
+a.btnlink{color:#ffffff !important;}
+a.btnlink:hover{text-decoration: none;color:blue !important;}

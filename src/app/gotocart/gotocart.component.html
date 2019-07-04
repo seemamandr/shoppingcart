@@ -1,0 +1,104 @@
+<!-- <div class="container-fluid">
+  <div class="row">
+  <div class="col">
+    1 of 3
+  </div>
+  <div class="col">
+    2 of 3
+  </div>
+  <div class="col">
+    3 of 3
+  </div>
+</div>
+</div> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div style="" class="row cartheader1">
+    <h2 clas="carthead1">Order Summary</h2>
+  </div>
+  <div class="row">
+      <div class="col-md-6 table5">
+          <table class="table table2 table-hover" style="">
+              <thead>
+                  <tr>
+                      <th class="line1" style="">Item</th>
+
+                      <th class="line3" style="">Qty</th>
+
+                      <th class="line5" style="">Price</th>
+                  </tr>
+              </thead>
+              <tbody>
+
+                  <tr *ngFor="let items of Items| slice:0:2">
+                      <td ><img class="tblimg" src="{{items.img_url}}">{{items.name}}</td>
+                      <td ><span ><button class="minusimg" [disabled] = "items.quantity==1" (click) = "decreaseByOne(items)"><img class="minus" src="./assets/images/minus-sign-in-a-square-interface-symbol.png"></button>&nbsp;{{items.quantity}}&nbsp;<button class="plsimg" (click) = "increaseByOne(items)"><img class="pls" src="./assets/images/plus-square-button.png"></button></span></td>
+                    <td >${{items.price * items.quantity}}</td>
+                      <!-- <td class="linethree">1</td>
+                      <td>${{items.price}}</td> -->
+                  </tr>
+                  <!-- <tr>
+                      <td class="lineone" style="">Item 7</td>
+                      <td class="linethree">2</td>
+                      <td>$800</td>
+                  </tr> -->
+              </tbody>
+          </table>
+  </div>
+  <div class="col-md-4 table4">
+
+      <table class="table table3 table-hover" style="">
+          <thead>
+              <tr>
+                  <th class="line1" style="">Total</th>
+
+                  <th class="line3" style=""></th>
+
+                 
+              </tr>
+          </thead>
+          <tbody>
+
+              <tr >
+                  <td class="lineone" style="">Item</td>
+                  <td class="linethree">$300</td>
+                
+              </tr>
+              <tr >
+                  <td class="lineone" style="">Discount</td>
+                  <td class="linethree">$300</td>
+                
+              </tr>
+              <tr >
+                  <td class="lineone" style="">Order total</td>
+                  <td class="linethree">$300</td>
+                
+              </tr>
+          </tbody>
+      </table>
+  </div>
+
+   
+  </div>
+<div class="row">
+        <button class="secondbtn" style=""><a class="btnlink" href="cart">Back</a></button>
+</div>
+  
+</div>
+
+</body>
+</html>
+
+
